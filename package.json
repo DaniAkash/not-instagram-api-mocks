@@ -14,9 +14,15 @@
   "files": [
     "lib"
   ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "not-instagram",
+    "mocks",
+    "miragejs",
+    "faker"
+  ],
+  "author": "DaniAkash <s.daniakash@gmail.com> (https://github.com/DaniAkash)",
+  "repository": "DaniAkash/not-instagram-api-mocks",
+  "license": "MIT",
   "dependencies": {
     "faker": "^4.1.0",
     "miragejs": "^0.1.38"
