@@ -2,10 +2,18 @@
   "name": "not-instagram-api-mocks",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
   "scripts": {
+    "prepare": "rollup -c rollup.config.js",
     "test": "jest"
   },
+  "main": "lib/index.js",
+  "umd:main": "lib/index.umd.js",
+  "module": "lib/index.m.js",
+  "source": "src/index.ts",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,7 +27,11 @@
     "@babel/preset-typescript": "^7.9.0",
     "@types/faker": "^4.1.12",
     "@types/jest": "^25.2.3",
+    "@wessberg/rollup-plugin-ts": "^1.2.24",
     "jest": "^26.0.1",
+    "rollup": "^2.10.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^5.3.0",
     "typescript": "^3.9.2"
   }
 }
