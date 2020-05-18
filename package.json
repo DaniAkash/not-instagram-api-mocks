@@ -21,7 +21,10 @@
     "faker"
   ],
   "author": "DaniAkash <s.daniakash@gmail.com> (https://github.com/DaniAkash)",
-  "repository": "DaniAkash/not-instagram-api-mocks",
+  "repository": "git@github.com:DaniAkash/not-instagram-api-mocks.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "MIT",
   "dependencies": {
     "faker": "^4.1.0",
